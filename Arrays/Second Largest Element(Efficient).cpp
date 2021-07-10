@@ -9,7 +9,7 @@ int SecondLargest(int arr[],int n)
     if(arr[i]!=arr[largest])
       {
         if(res==-1)
-        res=i;
+        res=i;                     //initialises the result as the first element which is not equal to largest.
         else if(arr[i]>arr[res])
         res=i;
       }
@@ -34,7 +34,7 @@ int SecondLargest(int arr[],int n)
         }
        else if(arr[i]!=arr[largest])
        {
-        if(res==-1||arr[i]>arr[res])
+        if(res==-1||arr[i]>arr[res])  //if sencond largest element was never obtained (if res==-1) set res=i
             res=i;
        }
    }
