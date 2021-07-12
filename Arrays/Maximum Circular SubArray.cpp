@@ -21,8 +21,8 @@ int maxC(int arr[], int n)
     return res;
 }
 */
-//Big O(n) Take maximum of normal max sub array(Kalden's algorithmn) and circular array
-//circular sub array max = find minimum using Kalden and subtract from total sum of the array.
+//Big O(n) Take maximum of normal max sub array(Kadane's algorithmn) and circular array
+//circular sub array max = find minimum using Kadane and subtract from total sum of the array.
 int normalMaxSum(int arr[], int n)
 {
     int res=arr[0];
