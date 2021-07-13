@@ -16,27 +16,4 @@ void remzero(int arr[], int n)
 
     }
 }
-int main()
-{
 
-      int arr[] = {10, 20, 0, 30, 0, 30}, n = 6;
-
-      cout<<"Before Removal"<<endl;
-
-       for(int i = 0; i < n; i++)
-       {
-       		cout<<arr[i]<<" ";
-       }
-
-       cout<<endl;
-
-       remzero(arr, n);
-
-       cout<<"After Removal"<<endl;
-
-       for(int i = 0; i < n; i++)
-       {
-       		cout<<arr[i]<<" ";
-       }
-
-}
